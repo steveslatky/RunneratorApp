@@ -46,7 +46,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginLeft="72dp"
         android:layout_marginTop="35dp"
-        android:gravity="center_vertical"/>
+        android:gravity="center_vertical"
+        android:onClick="GotToTrackMiles"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -76,7 +77,20 @@
         android:layout_marginTop="165dp"
         android:gravity="center_vertical"/>
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Weather"
+        android:layout_below="@+id/Welcome"
+        android:text="Weather"
+        android:textSize="40px"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="225dp"
+        android:gravity="center_vertical"
+        android:onClick="GoToWeather"/>
 
 
 </RelativeLayout>
