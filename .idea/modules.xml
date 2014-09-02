@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Runnerator.iml" filepath="$PROJECT_DIR$/Runnerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RunneratorApp.iml" filepath="$PROJECT_DIR$/RunneratorApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
